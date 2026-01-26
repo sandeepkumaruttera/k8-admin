@@ -9,7 +9,7 @@ data:
   mapUsers: |
     - groups:
       - abn-pod-reader
-      userarn: arn:aws:iam::650732254329:user/sandeep
+      userarn: arn:aws:iam::696919879899:user/sandeep
       username: sandeep       
 kind: ConfigMap
 metadata:
@@ -18,4 +18,3 @@ metadata:
   namespace: kube-system
   resourceVersion: "1170"
   uid: ac59db96-9e9c-4a66-b1c7-7420c5415841
-
