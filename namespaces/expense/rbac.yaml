@@ -20,6 +20,9 @@ subjects:
 - kind: User
   name: sandeep # "name" is case sensitive
   apiGroup: rbac.authorization.k8s.io
+- kind: User
+  name: vaishu # "name" is case sensitive
+  apiGroup: rbac.authorization.k8s.io
 roleRef:
   # "roleRef" specifies the binding to a Role / ClusterRole
   kind: Role #this must be Role or ClusterRole
@@ -48,6 +51,9 @@ metadata:
 subjects:
 - kind: User
   name: sandeep # Name is case sensitive
+  apiGroup: rbac.authorization.k8s.io
+- kind: User
+  name: vaishu # Name is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole

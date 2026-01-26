@@ -9,8 +9,12 @@ data:
   mapUsers: |
     - groups:
       - abn-pod-reader
-      userarn: arn:aws:iam::696919879899:user/sandeep
-      username: sandeep       
+      userarn: arn:aws:iam::696919879899:user/sandeep      
+      username: sandeep
+    - groups:
+      - abn-pod-reader
+      userarn: arn:aws:iam::696919879899:user/vaishu      
+      username: vaishu       
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-01-26T05:04:44Z"
@@ -18,3 +22,6 @@ metadata:
   namespace: kube-system
   resourceVersion: "1170"
   uid: ac59db96-9e9c-4a66-b1c7-7420c5415841
+
+
+#userarn: arn:aws:iam::696919879899:user/sandeep copy it from from sandeep iAM userdetails arn okay 
