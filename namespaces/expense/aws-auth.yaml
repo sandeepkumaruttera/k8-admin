@@ -20,8 +20,8 @@ metadata:
   creationTimestamp: "2026-01-27T06:40:34Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1170"
   uid: 57d9e3c8-430f-42f9-8376-8a2e4a780307
+
 
 
 #userarn: arn:aws:iam::696919879899:user/sandeep copy it from from sandeep iAM userdetails arn okay 
