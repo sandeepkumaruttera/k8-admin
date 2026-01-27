@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   mapRoles: |
-    - rolearn: arn:aws:iam::696919879899:role/eksctl-abn-nodegroup-abn-NodeInstanceRole-D377VD1CVu4u
+    - rolearn: arn:aws:iam::696919879899:role/eksctl-abn-nodegroup-abn-NodeInstanceRole-6Rw3iNKFy6Sr
       groups:
       - system:bootstrappers
       - system:nodes
@@ -17,11 +17,11 @@ data:
       username: vaishu       
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2026-01-26T05:04:44Z"
+  creationTimestamp: "2026-01-27T06:40:34Z"
   name: aws-auth
   namespace: kube-system
   resourceVersion: "1170"
-  uid: ac59db96-9e9c-4a66-b1c7-7420c5415841
+  uid: 57d9e3c8-430f-42f9-8376-8a2e4a780307
 
 
 #userarn: arn:aws:iam::696919879899:user/sandeep copy it from from sandeep iAM userdetails arn okay 
