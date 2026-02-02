@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   mapRoles: |
-    - rolearn: arn:aws:iam::696919879899:role/eksctl-abn-nodegroup-abn-NodeInstanceRole-6Rw3iNKFy6Sr
+    - rolearn: arn:aws:iam::696919879899:role/green-eks-node-group-20260202074226340800000003
       groups:
       - system:bootstrappers
       - system:nodes
@@ -17,10 +17,10 @@ data:
       username: vaishu       
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2026-01-27T06:40:34Z"
+  creationTimestamp: "2026-02-02T07:54:55Z"
   name: aws-auth
   namespace: kube-system
-  uid: 57d9e3c8-430f-42f9-8376-8a2e4a780307
+  uid: 9c804d65-ef25-4f16-a0cb-3cb3a63b7a03
 
 
 
